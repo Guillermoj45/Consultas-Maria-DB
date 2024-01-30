@@ -6,7 +6,7 @@ use empresa2324;
 
 select nomde
 from departamentos
-where 34 >= (select count(DEPDE)
+where 3 >= (select count(DEPDE)
                from empleados);
 describe departamentos;
 describe empleados;
